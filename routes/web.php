@@ -17,3 +17,4 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {return view('index');});
 Route::get('/verCancion/{id}',[VistasController::class,'mostrarCancion'])->name('ver.cancion');
 
+// esta es una prueba
